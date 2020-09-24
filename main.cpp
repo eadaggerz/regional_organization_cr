@@ -40,9 +40,9 @@ string getCantonName(vector<canton> cantons, int canton_id, int province_id) {
 
 int main(int argc, const char** argv) {
 
-  ifstream provinces_file("provinces.txt");
-  ifstream canton_file("cantons.txt");
-  ifstream districts_file("districts.txt");
+  ifstream provinces_file("input_files/provinces.txt");
+  ifstream canton_file("input_files/cantons.txt");
+  ifstream districts_file("input_files/districts.txt");
   
   ofstream output_file("output.xlsx");
 
